@@ -31,6 +31,7 @@ The catalog uses open formats, so it works with any agent that reads them:
 | Plugin | Tool | What the skill does |
 | --- | --- | --- |
 | [eslint-plugin-cds](https://github.com/cbs-consulting/eslint-plugin-cds) | ESLint rules for SAP CAP CDS models | Sets up `@cbs-consulting/eslint-plugin-cds` in CAP projects and lints `.cds` files as the agent edits them. |
+| [typed-cql](https://github.com/cbs-consulting/typed-cql) | Type-safe CQL queries for SAP CAP with cds-typer | Sets up `@cbs-consulting/typed-cql` in TypeScript CAP projects and writes typed queries with it instead of plain `cds.ql`. |
 
 ## 🚀 Install
 

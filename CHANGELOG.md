@@ -8,3 +8,5 @@ the date.
 
 - First version of the catalog, with the eslint-plugin-cds plugin. It installs in Codex, GitHub
   Copilot CLI and Claude Code, and the skill installs in other agents with `npx skills add`.
+- Adds the typed-cql plugin. Its skill teaches agents to set up `@cbs-consulting/typed-cql` and
+  to write typed CAP queries with it. Install it with `typed-cql@cbs-consulting`.

@@ -16,6 +16,15 @@
         "url": "https://github.com/cbs-consulting/eslint-plugin-cds.git"
       },
       "category": "development"
+    },
+    {
+      "name": "typed-cql",
+      "description": "Sets up @cbs-consulting/typed-cql in TypeScript SAP CAP projects and writes typed CAP queries with it.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cbs-consulting/typed-cql.git"
+      },
+      "category": "development"
     }
   ]
 }

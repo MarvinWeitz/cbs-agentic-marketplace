@@ -19,6 +19,7 @@ body:
       multiple: true
       options:
         - eslint-plugin-cds
+        - typed-cql
         - The whole catalog
     validations:
       required: true
