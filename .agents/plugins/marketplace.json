@@ -18,6 +18,19 @@
       "category": "Development"
     },
     {
+      "name": "container-templates",
+      "description": "Starts new SAP BTP projects from the cbs Dev Container Templates and helps when the container or the generator does not start.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cbs-consulting/container-templates.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
       "name": "eslint-plugin-cds",
       "description": "Sets up @cbs-consulting/eslint-plugin-cds in SAP CAP projects and lints .cds files as you edit them.",
       "source": {

@@ -19,6 +19,7 @@ body:
       multiple: true
       options:
         - cds-guard
+        - container-templates
         - eslint-plugin-cds
         - The whole catalog
     validations:
