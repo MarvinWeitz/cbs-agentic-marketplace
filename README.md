@@ -32,6 +32,7 @@ The catalog uses open formats, so it works with any agent that reads them:
 | --- | --- | --- |
 | [cds-guard](https://github.com/cbs-consulting/cds-guard) | Stops accidental changes to protected CDS entities, annotations, code blocks and files in CAP and UI5 projects | Sets up `@cbs-consulting/cds-guard`, checks whether a file is protected before the agent edits it, runs `check` afterwards, and locks only changes the user asked for. |
 | [eslint-plugin-cds](https://github.com/cbs-consulting/eslint-plugin-cds) | ESLint rules for SAP CAP CDS models | Sets up `@cbs-consulting/eslint-plugin-cds` in CAP projects and lints `.cds` files as the agent edits them. |
+| [stack-sentinel](https://github.com/cbs-consulting/stack-sentinel) | Reports out-of-support UI5, Node.js, Cloud Foundry and CAP versions and vulnerable npm packages to Teams, and opens fix pull requests | Sets up `@cbs-consulting/stack-sentinel`: runs a first scan, adds the weekly pipeline for GitHub Actions or Azure DevOps, lists the variables, secrets and permissions to set, and explains why a run sent nothing. |
 
 ## 🚀 Install
 
