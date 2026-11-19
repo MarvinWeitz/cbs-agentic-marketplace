@@ -19,8 +19,10 @@ body:
       multiple: true
       options:
         - cds-guard
-        - eslint-plugin-cds
+        - container-features
+        - container-templates
         - stack-sentinel
+        - virtual-key-mapper
         - The whole catalog
     validations:
       required: true
