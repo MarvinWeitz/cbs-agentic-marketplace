@@ -31,7 +31,8 @@ The catalog uses open formats, so it works with any agent that reads them:
 | Plugin | Tool | What the skill does |
 | --- | --- | --- |
 | [cds-guard](https://github.com/cbs-consulting/cds-guard) | Stops accidental changes to protected CDS entities, annotations, code blocks and files in CAP and UI5 projects | Sets up `@cbs-consulting/cds-guard`, checks whether a file is protected before the agent edits it, runs `check` afterwards, and locks only changes the user asked for. |
-| [eslint-plugin-cds](https://github.com/cbs-consulting/eslint-plugin-cds) | ESLint rules for SAP CAP CDS models | Sets up `@cbs-consulting/eslint-plugin-cds` in CAP projects and lints `.cds` files as the agent edits them. |
+| [container-features](https://github.com/cbs-consulting/container-features) | Dev Container Features for SAP BTP, CAP and Fiori development | Reads the project, picks the Features and options it needs, writes `devcontainer.json`, connects private npm feeds without committing tokens, and fixes failing container builds. |
+| [container-templates](https://github.com/cbs-consulting/container-templates) | Dev Container Templates that start a new SAP BTP project in a pre-configured container | Checks Docker, applies a template to an empty folder, hands the interactive project generator over to the user, and helps when the container or the generator does not start. |
 | [virtual-key-mapper](https://github.com/cbs-consulting/virtual-key-mapper) | Signs developers in to the company LLM gateway and gives their coding tools short-lived keys, labelled with the repository they work in | Installs `vkm`, adds the gateway profile, has the user sign in, connects Claude Code, Codex, OpenCode or other tools through the local proxy, and assigns a repository's labels. Never shows a key. |
 
 ## 🚀 Install
@@ -50,14 +51,14 @@ Then open `/plugins` in Codex and install a plugin from **cbs Agentic Marketplac
 
 ```bash
 copilot plugin marketplace add cbs-consulting/agentic-marketplace
-copilot plugin install eslint-plugin-cds@cbs-consulting
+copilot plugin install cds-guard@cbs-consulting
 ```
 
 ### Claude Code
 
 ```text
 /plugin marketplace add cbs-consulting/agentic-marketplace
-/plugin install eslint-plugin-cds@cbs-consulting
+/plugin install cds-guard@cbs-consulting
 ```
 
 ### Cursor, Gemini CLI, VS Code, OpenCode and other agents
@@ -67,11 +68,11 @@ Agents that read Agent Skills but no plugin marketplace get the skill with the
 agent's skills folder:
 
 ```bash
-npx skills add cbs-consulting/eslint-plugin-cds
+npx skills add cbs-consulting/cds-guard
 ```
 
 Add `-a <agent>` to pick the agent (for example `-a cursor` or `-a gemini-cli`) and `-g` to
-install for your user instead of the project. `npx skills add cbs-consulting/eslint-plugin-cds --list`
+install for your user instead of the project. `npx skills add cbs-consulting/cds-guard --list`
 shows the skills first.
 
 ### By hand
