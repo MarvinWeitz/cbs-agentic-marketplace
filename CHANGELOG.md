@@ -10,3 +10,5 @@ the date.
   Copilot CLI and Claude Code, and the skill installs in other agents with `npx skills add`.
 - New cds-guard plugin. Its skill sets up `@cbs-consulting/cds-guard` and keeps the agent from
   changing protected CDS entities, annotations, code blocks and files by accident.
+- New virtual-key-mapper plugin. Its skill `vkm-setup` sets up `vkm` for the user: the gateway
+  profile, the sign-in, the connected tools and a repository's labels.

@@ -32,6 +32,7 @@ The catalog uses open formats, so it works with any agent that reads them:
 | --- | --- | --- |
 | [cds-guard](https://github.com/cbs-consulting/cds-guard) | Stops accidental changes to protected CDS entities, annotations, code blocks and files in CAP and UI5 projects | Sets up `@cbs-consulting/cds-guard`, checks whether a file is protected before the agent edits it, runs `check` afterwards, and locks only changes the user asked for. |
 | [eslint-plugin-cds](https://github.com/cbs-consulting/eslint-plugin-cds) | ESLint rules for SAP CAP CDS models | Sets up `@cbs-consulting/eslint-plugin-cds` in CAP projects and lints `.cds` files as the agent edits them. |
+| [virtual-key-mapper](https://github.com/cbs-consulting/virtual-key-mapper) | Signs developers in to the company LLM gateway and gives their coding tools short-lived keys, labelled with the repository they work in | Installs `vkm`, adds the gateway profile, has the user sign in, connects Claude Code, Codex, OpenCode or other tools through the local proxy, and assigns a repository's labels. Never shows a key. |
 
 ## 🚀 Install
 
