@@ -20,6 +20,7 @@ body:
       options:
         - cds-guard
         - eslint-plugin-cds
+        - generator-btp
         - The whole catalog
     validations:
       required: true

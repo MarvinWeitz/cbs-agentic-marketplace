@@ -32,6 +32,7 @@ The catalog uses open formats, so it works with any agent that reads them:
 | --- | --- | --- |
 | [cds-guard](https://github.com/cbs-consulting/cds-guard) | Stops accidental changes to protected CDS entities, annotations, code blocks and files in CAP and UI5 projects | Sets up `@cbs-consulting/cds-guard`, checks whether a file is protected before the agent edits it, runs `check` afterwards, and locks only changes the user asked for. |
 | [eslint-plugin-cds](https://github.com/cbs-consulting/eslint-plugin-cds) | ESLint rules for SAP CAP CDS models | Sets up `@cbs-consulting/eslint-plugin-cds` in CAP projects and lints `.cds` files as the agent edits them. |
+| [generator-btp](https://github.com/cbs-consulting/generator-btp) | Yeoman generator that starts SAP CAP projects with linting, tests, a dev container and an Azure DevOps setup | Asks only the questions that apply, runs the generator with `--answers` instead of interactive prompts, and goes through the next steps, such as the Azure DevOps setup. |
 
 ## 🚀 Install
 

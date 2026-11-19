@@ -29,6 +29,19 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Development"
+    },
+    {
+      "name": "generator-btp",
+      "description": "Sets up SAP CAP projects with @cbs-consulting/generator-btp: asks what the project needs, runs the generator without interactive prompts, and walks through the next steps.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cbs-consulting/generator-btp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
     }
   ]
 }

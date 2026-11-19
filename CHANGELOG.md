@@ -10,3 +10,6 @@ the date.
   Copilot CLI and Claude Code, and the skill installs in other agents with `npx skills add`.
 - New cds-guard plugin. Its skill sets up `@cbs-consulting/cds-guard` and keeps the agent from
   changing protected CDS entities, annotations, code blocks and files by accident.
+- New generator-btp plugin. Its skill sets up SAP CAP projects with
+  `@cbs-consulting/generator-btp`: it asks what the project needs, runs the generator and goes
+  through the next steps.
