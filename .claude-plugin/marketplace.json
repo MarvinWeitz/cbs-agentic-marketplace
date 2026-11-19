@@ -34,6 +34,15 @@
         "url": "https://github.com/cbs-consulting/container-templates.git"
       },
       "category": "development"
+    },
+    {
+      "name": "virtual-key-mapper",
+      "description": "Sets up vkm (Virtual Key Mapper): signs in to your company LLM gateway, connects Claude Code, Codex, OpenCode and other tools with short-lived keys, and assigns the labels that attribute each request to a repository.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cbs-consulting/virtual-key-mapper.git"
+      },
+      "category": "development"
     }
   ]
 }

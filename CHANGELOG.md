@@ -15,3 +15,5 @@ the date.
   private npm feeds without committing tokens.
 - New container-templates plugin. Its skill starts a new SAP BTP project from the cbs Dev
   Container Templates and helps when the container or the project generator does not start.
+- New virtual-key-mapper plugin. Its skill `vkm-setup` sets up `vkm` for the user: the gateway
+  profile, the sign-in, the connected tools and a repository's labels.
