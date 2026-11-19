@@ -10,3 +10,6 @@ the date.
   Copilot CLI and Claude Code, and the skill installs in other agents with `npx skills add`.
 - New cds-guard plugin. Its skill sets up `@cbs-consulting/cds-guard` and keeps the agent from
   changing protected CDS entities, annotations, code blocks and files by accident.
+- New container-features plugin. Its skill sets up the cbs Dev Container Features in a
+  project: it picks the Features the project needs, writes `devcontainer.json` and connects
+  private npm feeds without committing tokens.
