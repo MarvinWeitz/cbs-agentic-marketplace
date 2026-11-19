@@ -18,11 +18,24 @@
       "category": "Development"
     },
     {
-      "name": "eslint-plugin-cds",
-      "description": "Sets up @cbs-consulting/eslint-plugin-cds in SAP CAP projects and lints .cds files as you edit them.",
+      "name": "container-features",
+      "description": "Sets up the cbs Dev Container Features in SAP BTP, CAP and Fiori projects: picks the Features a project needs, writes devcontainer.json and connects private npm feeds without committing tokens.",
       "source": {
         "source": "url",
-        "url": "https://github.com/cbs-consulting/eslint-plugin-cds.git"
+        "url": "https://github.com/cbs-consulting/container-features.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "container-templates",
+      "description": "Starts new SAP BTP projects from the cbs Dev Container Templates and helps when the container or the generator does not start.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cbs-consulting/container-templates.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -36,6 +49,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cbs-consulting/generator-btp.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "virtual-key-mapper",
+      "description": "Sets up vkm (Virtual Key Mapper): signs in to your company LLM gateway, connects Claude Code, Codex, OpenCode and other tools with short-lived keys, and assigns the labels that attribute each request to a repository.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cbs-consulting/virtual-key-mapper.git"
       },
       "policy": {
         "installation": "AVAILABLE",
