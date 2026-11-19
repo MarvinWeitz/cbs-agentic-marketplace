@@ -26,7 +26,7 @@ plugins; it holds no skills. Each plugin is the root of a tool's repository, wit
 | Whole suite (always run this) | `npm test` |
 | Regenerate the Claude Code and Copilot marketplace | `npm run sync` |
 | Check the listed repositories (needs network) | `npm run check:sources` |
-| Check one listed repository | `npm run check:sources -- eslint-plugin-cds` |
+| Check one listed repository | `npm run check:sources -- cds-guard` |
 
 There are no dependencies, no build, and no linter or formatter. Match the style of the
 surrounding code: scripts with double quotes and semicolons, tests with single quotes and no
