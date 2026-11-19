@@ -22,6 +22,7 @@ body:
         - container-features
         - container-templates
         - generator-btp
+        - stack-sentinel
         - virtual-key-mapper
         - The whole catalog
     validations:

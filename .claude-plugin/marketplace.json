@@ -45,6 +45,15 @@
       "category": "development"
     },
     {
+      "name": "stack-sentinel",
+      "description": "Sets up @cbs-consulting/stack-sentinel in SAP UI5, CAP and Node.js projects: the weekly scan pipeline on GitHub Actions or Azure DevOps, Teams reports, fix pull requests and ignore rules.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cbs-consulting/stack-sentinel.git"
+      },
+      "category": "development"
+    },
+    {
       "name": "virtual-key-mapper",
       "description": "Sets up vkm (Virtual Key Mapper): signs in to your company LLM gateway, connects Claude Code, Codex, OpenCode and other tools with short-lived keys, and assigns the labels that attribute each request to a repository.",
       "source": {

@@ -20,3 +20,5 @@ the date.
 - New generator-btp plugin. Its skill sets up SAP CAP projects with
   `@cbs-consulting/generator-btp`: it asks what the project needs, runs the generator and goes
   through the next steps.
+- New stack-sentinel plugin. Its skill sets up `@cbs-consulting/stack-sentinel`: a first scan,
+  the weekly pipeline for GitHub Actions or Azure DevOps, and the settings the user makes.
