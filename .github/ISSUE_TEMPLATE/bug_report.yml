@@ -20,7 +20,6 @@ body:
       options:
         - cds-guard
         - container-features
-        - eslint-plugin-cds
         - The whole catalog
     validations:
       required: true

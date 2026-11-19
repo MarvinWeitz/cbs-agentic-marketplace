@@ -25,15 +25,6 @@
         "url": "https://github.com/cbs-consulting/container-features.git"
       },
       "category": "development"
-    },
-    {
-      "name": "eslint-plugin-cds",
-      "description": "Sets up @cbs-consulting/eslint-plugin-cds in SAP CAP projects and lints .cds files as you edit them.",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cbs-consulting/eslint-plugin-cds.git"
-      },
-      "category": "development"
     }
   ]
 }
