@@ -21,6 +21,7 @@ body:
         - cds-guard
         - container-features
         - container-templates
+        - stack-sentinel
         - virtual-key-mapper
         - The whole catalog
     validations:
