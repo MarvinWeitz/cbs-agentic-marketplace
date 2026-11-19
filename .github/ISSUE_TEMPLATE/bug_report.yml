@@ -20,6 +20,7 @@ body:
       options:
         - cds-guard
         - container-features
+        - container-templates
         - The whole catalog
     validations:
       required: true

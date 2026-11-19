@@ -25,6 +25,15 @@
         "url": "https://github.com/cbs-consulting/container-features.git"
       },
       "category": "development"
+    },
+    {
+      "name": "container-templates",
+      "description": "Starts new SAP BTP projects from the cbs Dev Container Templates and helps when the container or the generator does not start.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cbs-consulting/container-templates.git"
+      },
+      "category": "development"
     }
   ]
 }

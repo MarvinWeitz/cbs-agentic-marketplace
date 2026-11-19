@@ -13,3 +13,5 @@ the date.
 - New container-features plugin. Its skill sets up the cbs Dev Container Features in a
   project: it picks the Features the project needs, writes `devcontainer.json` and connects
   private npm feeds without committing tokens.
+- New container-templates plugin. Its skill starts a new SAP BTP project from the cbs Dev
+  Container Templates and helps when the container or the project generator does not start.
